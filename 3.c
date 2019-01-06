@@ -12,5 +12,5 @@ void main() {
     }
     for(i=0;i<10;i++)
         printf("%d\n",c[i]);
-	
+	printf("Sum %d \n",sum);
 }
