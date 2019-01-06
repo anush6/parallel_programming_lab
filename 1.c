@@ -8,7 +8,7 @@ sections when can find out which thread is executing the section*/
     int a[10000],b[10000],c[10000],d[10000],i;
     for(i=0;i<10000;i++)
         a[i] = b[i] = i*10;
-    #pragma omp parallel num_threads(8)
+    #pragma omp parallel num_threads(1000)
     {
         int tid = omp_get_thread_num();
         int x;
